@@ -1,0 +1,132 @@
+/* pagina-principal {
+    display: flex;
+    margin-top: 0%;
+    
+  }
+  .cubo{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(219, 234, 247);
+    position: absolute;
+    opacity: 0.1;
+  }
+  
+  body {
+    margin: 0%;
+    display: flex;
+  }
+  .video_background_1{
+    width: 100vw;
+    opacity: 7;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute ;
+    height: 100%;
+    width: 100%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    opacity: 100;
+  }
+  
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+  .lineas-negras{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .lineas-img{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  
+  .texto-right-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;}
+*/
+.tabledesign{
+    /*width:100% ;
+    WIDTH:25%;
+    align-items: center;
+    text-align: center;
+    hecho por cele, --por terminar-- ;D*/
+    font-family: 'Quicksand', sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.tabledesign thead tr{
+    background-color: aqua;
+    color: #ffffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.tabledesign th
+.tabledesign td{
+    padding: 12px 15px;
+}
+.tabledesign tbody tr{
+    border-bottom: solid #dddddddd;
+    background-color: #f3f3f3;
+}
+.tabledesign tbody tr.active-row{
+    font-weight: bold;
+    color: aqua;
+    /*cuando halla algo activo se muestra asi si le pones clase de active row*/
+}
+.positionrelative{
+    position: relative;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: bottom 1px black;
+    outline: none;
+}
+.label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: Spx;
+    transform: translate(10px);
+    transition: transform .5s color .3s;
+}
+.input + .label,
+.input:not(:placeholder-shown) + .label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: top left;
+
+}
+input:invalid{
+    animation: shake .3s;
+}
+@keyframes shake{
+    25% {transform: translateX(4px);}
+    50% {transform: translateX(-4px);}
+    75% {transform: translateX(4px);}
+}
