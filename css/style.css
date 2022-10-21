@@ -163,3 +163,11 @@ input:invalid{
   outline: none;
   width: 300px;
 }
+.buttonañadir {
+
+  background-color: rgb(34, 127, 142);
+  border-color: white;
+  border-width: 1px;
+  border-radius: 3cm;
+  color: white;
+}
