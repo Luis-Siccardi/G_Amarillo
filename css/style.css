@@ -130,3 +130,36 @@ input:invalid{
     50% {transform: translateX(-4px);}
     75% {transform: translateX(4px);}
 }
+
+.headerbiblioteca{
+  position: absolute;
+  left: 48%;
+  top: 48%;
+  transform: translate(-50% -50%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.formbuscador{
+  margin: auto;
+}
+.divbuscador{
+  display: flex;
+  background-color: #fff;
+  padding: 9px 22px 9px 26px;
+  border-radius: 30px;
+  border: 2px solid gainsboro;
+  box-shadow: rgba 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.inputbuscador{
+  padding-left: 24px;
+  font-weight: bold;
+  background-image: url( /*img de nereo*/ );
+  background-size: 16px;
+  width: 0px;
+  transition: all 1s;
+}
+.inputbuscador{
+  outline: none;
+  width: 300px;
+}
