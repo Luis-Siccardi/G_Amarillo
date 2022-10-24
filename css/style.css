@@ -172,3 +172,20 @@ input:invalid{
   color: white;
   /*cele*/
 }
+.button{
+  text-align: center;
+  color: rgb(61, 105, 226);
+  /*Nacho y Mati*/
+}
+.linkk{
+  text-align: center;
+  background-color: rgb(79, 137, 185);
+  color: rgb(193, 219, 240);
+  border: 1.5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  
+}
