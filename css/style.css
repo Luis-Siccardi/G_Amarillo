@@ -189,3 +189,27 @@ input:invalid{
   margin: 20px 0;
   
 }
+/*añadir novedades*/
+.btn {
+
+  border: none;
+  background-color:rgb(128, 218, 128) ;
+  padding-left: 14px 28px;
+  font-size: 16px;
+  cursor:pointer
+  display inline-blok;
+}
+
+.success:hover{
+
+  background-color: beige;
+  color: white;
+}
+
+.success {color: white;}
+
+.text-mid{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
