@@ -187,10 +187,6 @@ input:invalid{
   font-size: 25px;
   padding: 10px 15px;
   margin: 20px 0;
-<<<<<<< HEAD
-}
-=======
-  
 }
 /*añadir novedades*/
 .btn {
@@ -217,41 +213,6 @@ input:invalid{
   align-self: center;
 
 }
-/*
->>>>>>> c77d54449a64617a4bb48a4622b3a3681d32a081
-html {
-  min-height: 100%;
-  position: relative;
-}
-body {
-<<<<<<< HEAD
-=======
-  text-align: center;
->>>>>>> c77d54449a64617a4bb48a4622b3a3681d32a081
-  margin: 0;
-  margin-bottom: 40px;
-}
-footer{
-<<<<<<< HEAD
-  text-align: center;
-=======
->>>>>>> c77d54449a64617a4bb48a4622b3a3681d32a081
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-<<<<<<< HEAD
-  height: 200px;
-  color: white;
-}
-nav{
-  text-align: center;
-}
-=======
-  height: 250px;
-  color: white;
-}
-*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
 *{
   margin: 0;
@@ -315,5 +276,12 @@ nav{
 .pie-pagina .grupo2 small{
   font-size: 15px;
 }
-@media screen
->>>>>>> c77d54449a64617a4bb48a4622b3a3681d32a081
+@media screen and (max-width:800px){
+  .pie-pagina .grupo1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
