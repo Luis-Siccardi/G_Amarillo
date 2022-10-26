@@ -96,31 +96,65 @@
     position: relative;
     align-items: center;
 }
-.input{
-    width: 100%;
-    font-family: inherit;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border: bottom 1px black;
-    outline: none;
+.form-box{
+  width: 320px;
+  height: 420px;
+  background: black;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
 }
-.label{
-    color: var(--color);
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: Spx;
-    transform: translate(10px);
-    transition: transform .5s color .3s;
+.imglogin{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50%;
+  left: calc(50%, -50px);
 }
-.input + .label,
-.input:not(:placeholder-shown) + .label{
-    transform: translateY(-12px) scale(.7);
-    transform-origin: top left;
+.form-box h2{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.form-box label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 
+}
+.form-box input{  
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+.form-box input[type="text"],
+.form-box input[type="password"]{
+  border: none;
+  border-bottom: 1px white;
+  background: white;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.form-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: skyblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.form-box a {
+  font-size: 12px;
 }
 input:invalid{
     animation: shake .3s;
@@ -296,4 +330,6 @@ footer{
 .pie-pagina .grupo2 small{
   font-size: 15px;
 }
-@media screen
+@media screen{
+
+}
