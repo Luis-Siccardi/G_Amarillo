@@ -73,7 +73,7 @@
   margin-bottom: 20px;
 
 }
-.form-box input[type="text"],
+.form-box input[type="email"],
 .form-box input[type="password"]{
   border: none;
   border-bottom: 1px white;
