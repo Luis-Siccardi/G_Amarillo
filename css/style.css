@@ -96,7 +96,7 @@
 .form-box a {
   font-size: 12px;
 }
-input:invalid{
+.form-box input:invalid{
     animation: shake .3s;
 }
 @keyframes shake{
