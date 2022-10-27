@@ -265,3 +265,7 @@ input:invalid{
 }
 
 >>>>>>> 7b7e99520d4c76e8e865bb22852719b026bb3853
+
+html{
+  scroll-behavior: smooth;
+}
