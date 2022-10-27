@@ -39,7 +39,7 @@
 .form-box{
   width: 320px;
   height: 420px;
-  background: black;
+  background: rgb(0, 13, 23);
   color: #fff;
   top: 50%;
   left: 50%;
@@ -47,6 +47,8 @@
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
+  margin-top: 30%;
+  border-radius: 7px;
 }
 .imglogin{
   width: 100px;
@@ -54,7 +56,8 @@
   border-radius: 50%;
   position: absolute;
   top: -50%;
-  left: calc(50%, -50px);
+  margin-top: 55%;
+  margin-left: 24%;
 }
 .form-box h2{
   margin: 0;
@@ -96,7 +99,8 @@
 .form-box a {
   font-size: 12px;
 }
-.form-box input:invalid{
+.form-box input[type="email"]:invalid
+.form-box input[type="password"]:invalid {
     animation: shake .3s;
 }
 @keyframes shake{
@@ -196,7 +200,8 @@
 }
 .pie-pagina{
   width: 100%;
-  background-color: #0a141d;
+  background-color: #1d1b1b;
+  margin-top: 100%;
 }
 .pie-pagina .grupo1{
   width: 100%;
@@ -242,7 +247,7 @@
   color: aqua;
 }
 .pie-pagina .grupo2{
-  background-color: #0a1a2a;
+  background-color: #1d1b1b;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
