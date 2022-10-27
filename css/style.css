@@ -274,3 +274,11 @@
 html{
   scroll-behavior: smooth;
 }
+.triangulo-equilatero-bottom {
+  width: 110;
+  height: 110;
+  border-right: 100px solid transparent;
+  border-top: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px radial-gradient(circle at top left, #bb2dfd, #22c1c3);   
+}
