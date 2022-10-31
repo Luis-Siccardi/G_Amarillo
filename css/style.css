@@ -42,6 +42,11 @@
   display: flex;
   margin: 3px;
 }
+.nav-bar{
+  margin-right: 75%;
+  outline: none;
+  width: 35px; 
+}
 .form-box{
   width: 320px;
   height: 420px;
