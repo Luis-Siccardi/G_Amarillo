@@ -267,7 +267,7 @@
   color: aqua;
 }
 .pie-pagina .grupo2{
-  background-color: #1d1b1b;
+  background-color: #0d2033;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
@@ -275,11 +275,6 @@
 .pie-pagina .grupo2 small{
   font-size: 15px;
 }
-<<<<<<< HEAD
-@media screen{
-
-}
-=======
 @media screen and (max-width:800px){
   .pie-pagina .grupo1{
     width: 90%;
@@ -288,9 +283,6 @@
     padding: 35px 0px;
   }
 }
-
->>>>>>> 7b7e99520d4c76e8e865bb22852719b026bb3853
-
 html{
   scroll-behavior: smooth;
 }
@@ -301,4 +293,9 @@ html{
   border-top: 100px solid transparent;
   border-left: 100px solid transparent;
   border-bottom: 100px radial-gradient(circle at top left, #bb2dfd, #22c1c3);   
+}
+body{
+  background-image: url("../img/fondoTrianglo.png");
+  background-repeat: no-repeat;
+  background-size: 1860px 2127px;
 }
