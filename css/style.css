@@ -287,3 +287,8 @@ html{
   border-left: 100px solid transparent;
   border-bottom: 100px radial-gradient(circle at top left, #bb2dfd, #22c1c3);   
 }
+body{
+  background-image: url("../img/fondoTrianglo.png");
+  background-repeat: no-repeat;
+  background-size: 1860px 2250px;
+}
