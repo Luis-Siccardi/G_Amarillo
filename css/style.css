@@ -41,11 +41,21 @@
   height: 50px;
   display: flex;
   margin: 3px;
+  margin-right: 100%;
+  float: right;
 }
 .nav-bar{
   margin-right: 75%;
   outline: none;
-  width: 35px; 
+  width: 35px;
+}
+.heading{
+  text-align: right;
+  align-items: right;
+  right: 0%;
+}
+.header-text{
+  margin-top: 5px;
 }
 .background-login{
   margin: 0;
@@ -65,7 +75,7 @@
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
-  margin-top: 91%;
+  margin-top: 65%;
   border-radius: 7px;
 }
 .imglogin{
@@ -75,7 +85,7 @@
   position: absolute;
   top: -50%;
   margin-top: 55%;
-  margin-left: 24%;
+  margin-left: 23%;
 }
 .form-box h2{
   margin: 0;
@@ -221,7 +231,7 @@
 .pie-pagina{
   width: 100%;
   background-color: #1d1b1b;
-  margin-top: 100%;
+  margin-top: 20%;
 }
 .pie-pagina .grupo1{
   width: 100%;
