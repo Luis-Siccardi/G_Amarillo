@@ -1,0 +1,3 @@
+print: ("¿cual es tu nombre?")
+nombre: input (ingrese el nombre del usuario)
+print: ("hola",nombre)
