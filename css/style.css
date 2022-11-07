@@ -36,13 +36,19 @@
     position: relative;
     align-items: center;
 }
+
 .img-container{
   width: 50px;
   height: 50px;
   display: flex;
   margin: 3px;
   margin-right: 100%;
-  float: right;
+  /*
+  grid-gap: 50px;
+  padding: 45px 0px;
+  */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .nav-bar{
   margin-right: 75%;
