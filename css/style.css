@@ -36,17 +36,12 @@
     position: relative;
     align-items: center;
 }
-
 .img-container{
   width: 75px;
   height: 75px;
   display: flex;
   margin: 3px;
   margin-right: 100%;
-  /*
-  grid-gap: 50px;
-  padding: 45px 0px;
-  */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -110,12 +105,10 @@
   margin: 0;
   padding: 0;
   font-weight: bold;
-
 }
 .form-box input{  
   width: 100%;
   margin-bottom: 20px;
-
 }
 .form-box input[type="email"],
 .form-box input[type="password"]{
