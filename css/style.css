@@ -38,8 +38,8 @@
 }
 
 .img-container{
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   display: flex;
   margin: 3px;
   margin-right: 100%;
@@ -50,6 +50,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.cabecera{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
 .nav-bar{
   margin-right: 75%;
   outline: none;
@@ -58,10 +64,11 @@
 .heading{
   text-align: right;
   align-items: right;
-  right: 0%;
+  right: 20%;
 }
 .header-text{
   margin-top: 5px;
+  right: 5%;
 }
 .background-login{
   margin: 0;
@@ -119,7 +126,7 @@
   height: 40px;
   color: black;
   font-size: 16px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .form-box input[type="submit"] {
   border: none;
@@ -142,7 +149,7 @@
     50% {transform: translateX(-4px);}
     75% {transform: translateX(4px);}
 }
-
+/* hagan con tutorial pls
 .headerbiblioteca{
   position: absolute;
   left: 48%;
@@ -154,29 +161,30 @@
 }
 .formbuscador{
   margin: auto;
-}
-.divbuscador{
-  display: flex;
-  background-color: #fff;
-  padding: 9px 22px 9px 26px;
-  border-radius: 30px;
-  border: 2px solid gainsboro;
-  box-shadow: rgba 0 0 20px rgba(0, 0, 0, 0.15);
-}
-.inputbuscador{
-  padding-left: 24px;
-  font-weight: bold;
-  background-image: url( /*img de nereo*/ );
-  background-size: 16px;
-  width: 0px;
-  transition: all 1s;
-  border-radius: 20px;
-}
-.inputbuscador{
-  outline: none;
-  width: 300px;
+  align-content: center;
   
 }
+
+.divbuscador{
+  width: 100px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+}
+.divbuscador input{
+  border: none;
+  border-bottom: 1px white;
+  background: white;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  border-radius: 15px;
+}
+*/
+
 .buttonañadir {
 
   background-color: rgb(34, 127, 142);
@@ -281,6 +289,7 @@
 }
 .pie-pagina .grupo1 .red-social a:hover{
   color: aqua;
+  
 }
 .pie-pagina .grupo2{
   background-color: #0d2033;
@@ -309,6 +318,7 @@ html{
   border-top: 100px solid transparent;
   border-left: 100px solid transparent;
   border-bottom: 100px radial-gradient(circle at top left, #bb2dfd, #22c1c3);   
+  /*  cambiar por sistema de porcentajes, la diferencia de px en una pantalla cambia entre computadoras*/
 }
 body{
   background-image: url("../img/fondoTrianglo.png");
