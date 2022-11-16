@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="headerbilbioteca">
+        <div class="divbuscador">
+            <form action="get" class="formbuscador">
+                <input type="text" id="inputbuscador" placeholder="Buscar libro">
+                <!--aca va el bbuscador-->
+            </form> 
+        </div>
+    </header>
+    <section> <!--hecho por thiago e ian -->
+        <h1>tablas</h1>
+        <table class="tabledesign">
+            <thead>
+                <tr>
+                    <th>
+                        libro
+                    </th>
+                    <th>
+                        autor
+                    </th>
+                    <th>
+                        editorial
+                    </th>
+                    <th>
+                        virtual
+                        <!--aca va el link si es virtual-->
+                    </th>
+                    <th>
+                        Stock
+                        <!--si es en fisico-->
+                    </th>
+                    <th>
+                        Devolucion
+                        <!-- si esta en fisico y lo retiras en ese momento que dia lo tendrias que devolver -->
+                    </th>
+                    <th>
+                        Genero
+                    </th>
+                    <th>
+                        Creado
+                        <!-- Fecha de creacion -->
+                    </th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--aca van los libros-->
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <form action="get">
+            <input class="buttonañadir" type="submit" placeholder="Añadir libro"> <!--cele-->
+            <input class="buttonañadir" type="submit" placeholder="Quitar Libro"> <!--Mati-->
+        </form>
+    </section>
+</body>
+</html>
