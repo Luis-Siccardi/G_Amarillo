@@ -331,6 +331,6 @@ body{
   left: 50%;
   text-align: center;
   position: absolute;
-  transform: translate(50%, -50%);
+  transform: translate(20%, -50%);
 }
 /*  cambiar por sistema de porcentajes, la diferencia de px en una pantalla cambia entre computadoras*/
