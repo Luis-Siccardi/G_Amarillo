@@ -1,0 +1,22 @@
+TABLA BD BIBLIOTECA ESCOLAR
+Título
+Autor
+Editorial
+ISBN
+Género: acá se elige de acuerdo con el criterio de cada biblioteca
+por ejemplo, en una biblioteca escolar:
+* 000: Generalidades.
+* 100: Filosofía y psicología.
+* 200: Religión.
+* 300: Ciencias sociales.
+* 400: Lengua.
+* 500: Matemática y ciencias naturales.
+* 600: Tecnología y ciencias aplicadas.
+* 700: Artes.
+* 800: Literatura.
+* 900: Historia y geografía.
+
+Y Literatura, a su vez, se divide en poesía, infantil, juvenil, novela, historieta.
+
+https://soybibliotecario.blogspot.com/2018/02/la-clasificacion-en-las-bibliotecas.html
+
