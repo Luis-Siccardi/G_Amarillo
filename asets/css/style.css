@@ -45,21 +45,21 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.head-pagina{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
 .cabecera{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px;
-  padding: 45px 0px;
+  padding: 45px 700px;
 }
 .nav-bar{
   margin-right: 75%;
   outline: none;
   width: 35px;
-}
-.heading{
-  text-align: right;
-  align-items: right;
-  right: 20%;
 }
 .header-text{
   margin-top: 5px;
@@ -73,14 +73,14 @@
   margin-top: 40%;
 }
 .form-box2{
-  width: 320px;
+  width: 380px;
   height: 420px;
   background: rgb(0, 13, 23);
   color: #fff;
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -275%);
+  transform: translate(-50%, -325%);
   box-sizing: border-box;
   padding: 70px 30px;
   margin-top: 65%;
@@ -106,8 +106,8 @@
   border-radius: 50%;
   position: absolute;
   top: -50%;
-  margin-top: 55%;
-  margin-left: 23%;
+  margin-top: 45%;
+  margin-left: 30%;
 }
 .form-box h2{
   margin: 0;
