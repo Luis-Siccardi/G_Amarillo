@@ -247,10 +247,15 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+.margen20{
+  margin-top: 20%;
+}
+.margen40{
+  margin-top: 40%;
+}
 .pie-pagina{
   width: 100%;
   background-color: #1d1b1b;
-  margin-top: 20%;
 }
 .pie-pagina .grupo1{
   width: 100%;
