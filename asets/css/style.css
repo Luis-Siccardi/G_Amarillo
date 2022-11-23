@@ -50,10 +50,17 @@
   align-items: center;
   text-align: center;
 }
+<<<<<<< Updated upstream
 .cabecera{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px;
+=======
+.cabecera{ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px; 
+>>>>>>> Stashed changes
   padding: 45px 700px;
 }
 .nav-bar{
@@ -324,16 +331,15 @@ html{
 body{
   background-image: url("../img/fondoTrianglo.png");
   background-repeat: no-repeat;
-  background-size: 1500px 777px;
+  background-size: 2000px 999px;
 }
 
 .text-box{
   width: 620px;
-  height: 420spx;
-  background: rgb(11, 61, 99);
+  height: 420px;
   color: #fff;
-  top: 50%;
-  left: 50%;
+  margin-top: 10%;
+  margin-left: 50%;
   text-align: center;
   position: absolute;
   transform: translate(20%, -50%);
