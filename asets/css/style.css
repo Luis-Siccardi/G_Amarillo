@@ -50,17 +50,13 @@
   align-items: center;
   text-align: center;
 }
-<<<<<<< Updated upstream
 .cabecera{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px;
-=======
-.cabecera{ 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px; 
->>>>>>> Stashed changes
   padding: 45px 700px;
 }
 .nav-bar{
@@ -345,3 +341,13 @@ body{
   transform: translate(20%, -50%);
 }
 /*  cambiar por sistema de porcentajes, la diferencia de px en una pantalla cambia entre computadoras*/
+
+.eventos-box{
+  background-color: rgb(154, 30, 61);
+
+}
+.eventos-body{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
