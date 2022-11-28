@@ -351,3 +351,14 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
 }
+
+.eventos{
+  background-color: rgb(103, 131, 128);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text{
+  color: white;
+
+}
