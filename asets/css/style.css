@@ -43,7 +43,7 @@
   margin: 3px;
   margin-right: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 .head-pagina{
   width: 100%;
@@ -52,12 +52,9 @@
 }
 .cabecera{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 50px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 50px; 
-  padding: 45px 700px;
+  padding: 45px 320px;
 }
 .nav-bar{
   margin-right: 75%;
@@ -334,8 +331,7 @@ html{
   width: 620px;
   height: 420px;
   color: #fff;
-  margin-top: 10%;
-  margin-left: 50%;
+  margin-top: 20%;
   text-align: center;
   position: absolute;
   transform: translate(20%, -50%);
