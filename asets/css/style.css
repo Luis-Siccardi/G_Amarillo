@@ -324,10 +324,10 @@
 html{
   scroll-behavior: smooth;
 }
-body{
+.triangle{
   background-image: url("../img/fondoTrianglo.png");
   background-repeat: no-repeat;
-  background-size: 2000px 999px;
+  background-size: 100%;
 }
 
 .text-box{
@@ -360,5 +360,13 @@ body{
 
 .text{
   color: white;
-
+}
+.titles{
+  color: white;
+  text-align: center;
+  margin-top: 0%;
+}
+.bluebackground{
+  padding: 20px;
+  background-color: rgb(150, 250, 253);
 }
